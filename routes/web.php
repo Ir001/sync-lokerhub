@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/',function(){
+    return 1;
+});
 Route::get('/category',[JsonController::class,'category']);
 Route::get('/industry',[JsonController::class,'industry']);
 Route::get('/province',[JsonController::class,'province']);
