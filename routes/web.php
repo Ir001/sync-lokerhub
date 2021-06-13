@@ -21,3 +21,5 @@ Route::get('/industry',[JsonController::class,'industry']);
 Route::get('/province',[JsonController::class,'province']);
 Route::get('/regency',[JsonController::class,'regency']);
 Route::get('/pages',[JsonController::class,'pages']);
+Route::get('/company',[JsonController::class,'company']);
+Route::get('/vacancy',[JsonController::class,'vacancy']);
